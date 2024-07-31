@@ -1,43 +1,105 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexander Manriquez</title>
+    <!-- Font Awesome Icons CDN-->
+    <script src="https://kit.fontawesome.com/6262dc69d7.js" crossorigin="anonymous"></script>
+    <!-- Own styles link -->
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg bg-success">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./assets/img/logo-am.png" class="navbar__img" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#index">Inicio</a>
-              <a class="nav-link" href="#skills">Mis habilidades</a>
-              <a class="nav-link" href="#projects">Proyectos</a>
-              <a class="nav-link" href="#contact">Contacto</a>
+            <a class="navbar-brand" href="#"><img src="./assets/img/logo-am.png" class="navbar__img" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="#index">Inicio</a>
+                    <a class="nav-link" href="#skills">Mis habilidades</a>
+                    <a class="nav-link" href="#projects">Proyectos</a>
+                    <a class="nav-link" href="#contact">Contacto</a>
+                </div>
             </div>
-          </div>
         </div>
-      </nav>
+    </nav>
 
-      <section class="hero-section container-fluid" id="index">
+    <section class="hero-section container-fluid" id="index">
         <div class="row">
             <div class="col-12 col-md-6">
-                <img src="./assets/img/website.svg" alt="">
+                <img src="./assets/img/website.svg" class="hero-section__img mt-5" alt="">
             </div>
             <div class="col-12 col-md-6 mt-5 pt-5">
                 <h1 class="container-fluid">Alexander Manriquez</h1>
                 <h5 class="container-fluid">Desarrollador FrontEnd</h5>
-                <p class="container-fluid">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo reiciendis, ullam ipsam porro numquam, blanditiis officiis quos, animi corporis velit quis minus maiores! Reiciendis nemo accusamus, quod eos commodi laboriosam.
-                Tenetur hic sint laudantium voluptates reiciendis laborum quae, ea est at corporis.</p>
+                <p class="container-fluid">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo reiciendis,
+                    ullam ipsam porro numquam, blanditiis officiis quos, animi corporis velit quis minus maiores!
+                    Reiciendis nemo accusamus, quod eos commodi laboriosam.
+                    Tenetur hic sint laudantium voluptates reiciendis laborum quae, ea est at corporis.</p>
                 <button type="button" class="btn btn-secondary btn-lg ms-3 px-5">Contactame</button>
-                
             </div>
         </div>
-      </section>
+    </section>
+
+    <section class="skills" id="skills">
+        <h3 class="skills__title">Mis habilidades</h3>
+        <article class="skills__detail">
+            <div class="row">
+                <div class="col-6 d-flex">
+                    <i class="fa-brands fa-html5 skills__icon"></i>
+                    <p class="skills__paragraph">HTML</p>
+                    <i class="fa-brands fa-css3-alt skills__icon"></i>
+                    <p class="skills__paragraph">CSS</p>
+                    <i class="fa-brands fa-sass skills__icon"></i>
+                    <p class="skills__paragraph">Sass</p>
+                    <i class="fa-brands fa-bootstrap skills__icon"></i>
+                    <p class="skills__paragraph">Bootstrap</p>
+                </div>
+                <div class="col-6 d-flex">
+                    <i class="fa-brands fa-git skills__icon"></i>
+                    <p class="skills__paragraph">Git</p>
+                    <i class="fa-brands fa-github skills__icon"></i>
+                    <p class="skills__paragraph">Github</p>
+                    <i class="fa-brands fa-js skills__icon"></i>
+                    <p class="skills__paragraph">JavaScript</p>
+                    <i class="fa-brands fa-vuejs skills__icon"></i>
+                    <p class="skills__paragraph">Vue</p>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="projects" id="projects">
+        <h3 class="projects__title">Mis proyectos</h3>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <article class="projects__detail">
+                    <img src="./assets/img/blog-front-end.png" alt="Portada blog frontend" class="projects__img">
+                    <p class="projects__paragraph">Blog FrontEnd</p>
+                </article>
+                <article class="projects__detail">
+                    <img src="./assets/img/cv.png" alt="Portada proyecto CV" class="projects__img">
+                    <p class="projects__paragraph">Proyecto Curriculum Vitae</p>
+                </article>
+            </div>
+            <div class="col-12 col-md-6">
+                <article class="projects__detail">
+                    <img src="./assets/img/cafeteria-agere.png" alt="Portada cafetería Agere" class="projects__img">
+                    <p class="projects__paragraph">Cafetería Ágere</p>
+                </article>
+                <article class="projects__detail">
+                    <img src="./assets/img/viajes-chile.png" alt="Portada viajes Chile" class="projects__img">
+                    <p class="projects__paragraph">Viajes Chile</p>
+                </article>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>

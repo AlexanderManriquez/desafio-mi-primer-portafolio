@@ -11966,10 +11966,20 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-color: #799351;
+  background-color: #DEF9C4;
 }
 
 .navbar__img {
   width: 3rem;
   height: 3rem;
+}
+
+.hero-section__img {
+  width: 100%;
+  height: 50vh;
+}
+
+.projects__img {
+  width: 90%;
+  height: 50vh;
 }/*# sourceMappingURL=main.css.map */
