@@ -1,0 +1,12 @@
+.skills__img {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+@media (max-width: 770px) {
+    .skills__column {
+        display: flex;
+        flex-direction: column;
+    }
+}
