@@ -11969,6 +11969,11 @@ body {
   background-color: #DEF9C4;
 }
 
+body {
+  font-family: "Bitter", serif;
+  font-weight: 400;
+}
+
 .navbar__img {
   width: 3rem;
   height: 3rem;
@@ -11981,5 +11986,17 @@ body {
 
 .projects__img {
   width: 90%;
-  height: 50vh;
+  height: 30vh;
+}
+
+.skills__img {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (max-width: 770px) {
+  .skills__column {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=main.css.map */

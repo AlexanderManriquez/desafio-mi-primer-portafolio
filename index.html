@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexander Manriquez</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <!-- Font Awesome Icons CDN-->
     <script src="https://kit.fontawesome.com/6262dc69d7.js" crossorigin="anonymous"></script>
     <!-- Own styles link -->
@@ -47,59 +51,136 @@
         </div>
     </section>
 
-    <section class="skills" id="skills">
-        <h3 class="skills__title">Mis habilidades</h3>
+    <section class="skills container" id="skills">
+        <h3 class="skills__title text-center py-5">Mis habilidades</h3>
         <article class="skills__detail">
             <div class="row">
-                <div class="col-6 d-flex">
-                    <i class="fa-brands fa-html5 skills__icon"></i>
-                    <p class="skills__paragraph">HTML</p>
-                    <i class="fa-brands fa-css3-alt skills__icon"></i>
-                    <p class="skills__paragraph">CSS</p>
-                    <i class="fa-brands fa-sass skills__icon"></i>
-                    <p class="skills__paragraph">Sass</p>
-                    <i class="fa-brands fa-bootstrap skills__icon"></i>
-                    <p class="skills__paragraph">Bootstrap</p>
+                <div class="col-6 d-flex justify-content-end skills__column">
+                    <div class="skills__language d-flex px-3 py-1">
+                         <img src="./assets/img/html.png" alt="" class="skills__img">
+                        <p class="skills__paragraph ms-1">HTML</p>
+                    </div>
+                    <div class="skills__language d-flex px-3 py-1">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="" class="skills__img">
+                        <p class="skills__paragraph ms-1">CSS</p>
+                    </div>
+                    <div class="skills__language d-flex px-3 py-1">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="" class="skills__img">
+                        <p class="skills__paragraph ms-1">Sass</p>
+                    </div>
+                    <div class="skills__language d-flex px-3 py-1">
+                        <img src="./assets/img/bootstrap-logo.png" alt="" class="skills__img">
+                        <p class="skills__paragraph ms-1">Bootstrap</p>
+                    </div>
+
                 </div>
-                <div class="col-6 d-flex">
-                    <i class="fa-brands fa-git skills__icon"></i>
-                    <p class="skills__paragraph">Git</p>
-                    <i class="fa-brands fa-github skills__icon"></i>
-                    <p class="skills__paragraph">Github</p>
-                    <i class="fa-brands fa-js skills__icon"></i>
-                    <p class="skills__paragraph">JavaScript</p>
-                    <i class="fa-brands fa-vuejs skills__icon"></i>
-                    <p class="skills__paragraph">Vue</p>
+                <div class="col-6 d-flex skills__column">
+                    <div class="skills__language d-flex px-3 py-1">
+                        <img src="./assets/img/git.png" alt="" class="skills__img">
+                        <p class="skills__paragraph ms-1">Git</p>
+                    </div>
+                    <div class="skills__language d-flex px-3 py-1">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Github-desktop-logo-symbol.svg" alt="" class="skills__img">
+                        <p class="skills__paragraph ms-1">Github</p>
+                    </div>
+                    <div class="skills__language d-flex px-3 py-1">
+                        <img src="./assets/img/js.png" alt="" class="skills__img">
+                        <p class="skills__paragraph ms-1">JavaScript</p>
+                    </div>
+                    <div class="skills__language d-flex px-3 py-1">
+                        <img src="./assets/img/vue.png" alt="" class="skills__img">
+                        <p class="skills__paragraph ms-1">Vue</p>
+                    </div>
                 </div>
             </div>
         </article>
     </section>
 
-    <section class="projects" id="projects">
-        <h3 class="projects__title">Mis proyectos</h3>
+    <section class="projects container" id="projects">
+        <h3 class="projects__title text-center py-5">Mis proyectos</h3>
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-6 col-md-3">
                 <article class="projects__detail">
                     <img src="./assets/img/blog-front-end.png" alt="Portada blog frontend" class="projects__img">
-                    <p class="projects__paragraph">Blog FrontEnd</p>
-                </article>
-                <article class="projects__detail">
-                    <img src="./assets/img/cv.png" alt="Portada proyecto CV" class="projects__img">
-                    <p class="projects__paragraph">Proyecto Curriculum Vitae</p>
+                    <a href="https://github.com/AlexanderManriquez/desafio-blog-frontend-con-sass" class="projects__anchor">Blog FrontEnd</a>
                 </article>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-6 col-md-3">
+                <article class="projects__detail">
+                    <img src="./assets/img/cv.png" alt="Portada proyecto CV" class="projects__img">
+                    <a href="https://github.com/AlexanderManriquez/desafio-mi-cv" class="projects__anchor">Proyecto CV</a>
+                </article>
+            </div>
+            <div class="col-6 col-md-3">
                 <article class="projects__detail">
                     <img src="./assets/img/cafeteria-agere.png" alt="Portada cafetería Agere" class="projects__img">
-                    <p class="projects__paragraph">Cafetería Ágere</p>
+                    <a href="https://github.com/AlexanderManriquez/desafio-cafeteria-agere" class="projects__anchor">Café Agere</a>
                 </article>
+            </div>
+            <div class="col-6 col-md-3">
                 <article class="projects__detail">
                     <img src="./assets/img/viajes-chile.png" alt="Portada viajes Chile" class="projects__img">
-                    <p class="projects__paragraph">Viajes Chile</p>
+                    <a href="https://github.com/AlexanderManriquez/prueba-viajes-chile" class="projects__anchor">Viajes Chile</a>
                 </article>
             </div>
         </div>
     </section>
+
+    <section class="contact container mb-3" id="contact">
+        <h3 class="contact__title text-center py-5">Contactame</h3>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <section class="contact__form text-center container">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                        </div>
+                    </div>
+                    <input type="email" class="form-control mt-3" placeholder="Tu email" aria-label="Email">
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-secondary btn-lg ms-3 px-5">Enviar</button>
+                </section>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="d-flex">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="contact__text">+569 5027 2184</p>
+                </div>
+                <div class="d-flex">
+                    <i class="fa-solid fa-at"></i>
+                    <p class="contact__text">alexander.manriquez.s@gmail.com</p>
+                </div>
+                <div class="d-flex">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/alexander-manriquez" target="_blank" class="contact__text">LinkedIn</a>
+                </div>
+                <div class="d-flex">
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/AlexanderManriquez" target="_blank" class="contact__text">Github</a>
+                </div>
+                <div class="d-flex">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="" target="_blank" class="contact__text">Instagram</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
