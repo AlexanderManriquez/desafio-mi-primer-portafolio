@@ -1,0 +1,10 @@
+.contact__anchor, .projects__anchor {
+    color: #2C7865;
+    text-decoration: none;
+}
+
+.contact__anchor:hover, .projects__anchor:hover {
+    font-weight: $font-weight-bold;
+    font-size: $h5-font-size;
+    transition: 0.7s;
+}
